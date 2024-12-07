@@ -1,7 +1,9 @@
-function App() {
+import React from 'react'
+import Router from './router/router'
 
+const App: React.FC = () => {
   return (
-    <h1>yo</h1>
+    <Router />
   )
 }
 
