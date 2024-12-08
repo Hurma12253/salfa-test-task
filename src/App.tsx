@@ -1,9 +1,12 @@
 import React from 'react'
-import Router from './router/router'
+import Router from './router/Router.tsx'
+import { Container } from '@mui/material'
 
 const App: React.FC = () => {
   return (
-    <Router />
+    <Container maxWidth="lg">
+      <Router />
+    </Container>
   )
 }
 
