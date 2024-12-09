@@ -8,9 +8,9 @@ const Products: React.FC = () => {
     return (
         <Container>
             <Grid container spacing={5} columns={12}>
-                {testData.map(({ image, title, description, liked }) => (
+                {testData.map(({ image, title, description, liked, slug }) => (
                     <Grid key={image} size={{ lg: 4, md: 6, xs: 12 }} display="flex" justifyContent="center">
-                        <Card image={image} title={title} description={description} liked={liked} />
+                        <Card image={image} title={title} description={description} liked={liked} slug={slug} />
                     </Grid>
                 ))}
             </Grid>

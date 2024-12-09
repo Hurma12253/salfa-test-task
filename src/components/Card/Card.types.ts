@@ -3,4 +3,5 @@ export interface ICardProps {
     title: string
     description: string
     liked: boolean
+    slug: string
 }
