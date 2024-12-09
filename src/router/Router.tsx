@@ -11,9 +11,8 @@ const Router: React.FC = () => (
         <Routes>
             <Route index element={<HomeScreen />} />
 
-            <Route path={Paths.products} element={<Products />}>
-                <Route path={Paths.product} element={<HomeScreen />} />
-            </Route>
+            <Route path={Paths.products} element={<Products />} />
+            <Route path={Paths.product} element={<HomeScreen />} />
 
         </Routes>
     </BrowserRouter>
